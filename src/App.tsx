@@ -1,3 +1,4 @@
+import NavBar from "./assets/components/NavBar"
 
 const App = () => {
   return (
