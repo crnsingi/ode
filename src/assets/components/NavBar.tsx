@@ -1,15 +1,21 @@
-const NavBar = () => {
+interface NavBarProps{
+    brandName : string;
+    imageSrcPath: string;
+}
+
+
+const NavBar = ({brandName , imageSrcPath}: NavBarProps) => {
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
         <img
-          src="/docs/4.0/assets/brand/bootstrap-solid.svg"
+          src={imageSrcPath}
           width="30"
           height="30"
           className="d-inline-block align-top"
           alt=""
         />
-        Bootstrap
+        {brandName}
       </a>
     </nav>
   );
