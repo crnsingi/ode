@@ -5,7 +5,8 @@ import imagePath from './assets/image.png'
 const App = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar 
+      brandName="Cesar N" imageSrcPath={imagePath} />
     </div>
   )
 }
