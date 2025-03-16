@@ -6,7 +6,8 @@ interface NavBarProps {
 const NavBar = ({ brandName, imageSrcPath }: NavBarProps) => {
   return (
     <nav className="navbar navbar-light bg-white shadow">
-      <a className="navbar-brand" href="#">
+    <div className="container-fluid">
+    <a className="navbar-brand" href="#">
         <img
           src={imageSrcPath}
           width="60"
@@ -27,6 +28,8 @@ const NavBar = ({ brandName, imageSrcPath }: NavBarProps) => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
+    </div>
+      
     </nav>
   );
 };
