@@ -10,12 +10,14 @@ const NavBar = ({brandName , imageSrcPath}: NavBarProps) => {
       <a className="navbar-brand" href="#">
         <img
           src={imageSrcPath}
-          width="30"
-          height="30"
+          width="60"
+          height="60"
           className="d-inline-block align-top"
           alt=""
         />
+        <span className="fw-bolder fs-4">
         {brandName}
+        </span>
       </a>
     </nav>
   );
