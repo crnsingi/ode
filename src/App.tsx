@@ -1,5 +1,6 @@
-import NavBar from "./assets/components/NavBar"
+import NavBar from "./components/Navbar";
 import 'bootstrap/dist/css/bootstrap.css'
+import imagePath from './assets/image.png'
 
 const App = () => {
   return (
