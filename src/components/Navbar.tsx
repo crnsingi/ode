@@ -6,7 +6,7 @@ interface NavBarProps{
 
 const NavBar = ({brandName , imageSrcPath}: NavBarProps) => {
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-light bg-white shadow">
       <a className="navbar-brand" href="#">
         <img
           src={imageSrcPath}
