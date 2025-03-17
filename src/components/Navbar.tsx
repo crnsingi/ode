@@ -39,24 +39,21 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
       " 
       id="navbarSupportedContent">
     <ul className="navbar-nav mb-2 mb-md-0">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home</a>
-      </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Services</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">For Business</a>
-      </li> <li className="nav-item">
-        <a className="nav-link" href="#">Careers</a>
-      </li>
+      </li> 
+     
+     
       <li className="nav-item">
-        <a className="nav-link" href="#">Community</a>
-      </li> <li className="nav-item">
         <a className="nav-link" href="#">About Us</a>
-      </li> <li className="nav-item">
+      </li> 
+      <li className="nav-item">
         <a className="nav-link" href="#">FAQs</a>
-      </li> <li className="nav-item">
+      </li>
+       <li className="nav-item">
         <a className="nav-link" href="#">Rescue me!!</a>
       </li>
     </ul>

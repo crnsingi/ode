@@ -19,10 +19,10 @@ const Footer = () => {
             aria-label="main footer navigation"
           >
             <a className="link" href="/">
-              Features
+              Carrers
             </a>
             <a className="link" href="/">
-              Services
+              Community
             </a>
             <a className="link" href="/">
               About Us
