@@ -40,11 +40,9 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
       id="navbarSupportedContent">
     <ul className="navbar-nav me-auto mb-2 mb-md-1">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="#">Home</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Link</a>
-      </li>
+   
 
       <li className="nav-item">
         <a className="nav-link" href="#">Services</a>
