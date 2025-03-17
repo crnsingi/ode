@@ -6,7 +6,8 @@ const App = () => {
   return (
     <div>
       <NavBar 
-      brandName="Cesar N" imageSrcPath={imagePath} />
+      brandName="Cesar N" 
+      imageSrcPath={imagePath} />
     </div>
   )
 }
