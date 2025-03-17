@@ -21,8 +21,8 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -32,22 +32,19 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
       <div 
       className="collapse 
       navbar-collapse
-      align-items-start
+      justify-content-center
       d-flex
       flex-column
       flex-md-row
       " 
       id="navbarSupportedContent">
-    <ul className="navbar-nav me-auto mb-2 mb-md-1">
+    <ul className="navbar-nav mb-2 mb-md-0">
       <li className="nav-item active">
         <a className="nav-link" href="#">Home</a>
       </li>
-   
-
       <li className="nav-item">
         <a className="nav-link" href="#">Services</a>
       </li>
-
       <li className="nav-item">
         <a className="nav-link" href="#">For Business</a>
       </li> <li className="nav-item">
@@ -62,12 +59,8 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
       </li> <li className="nav-item">
         <a className="nav-link" href="#">Rescue me!!</a>
       </li>
-     
     </ul>
-    <form className="d-flex me-3" role="search">
-      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+  
   </div>
     </div>
     </nav>
