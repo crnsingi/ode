@@ -31,13 +31,13 @@ const NavBar = ({ brandName, imageSrcPath }: NavBarProps) => {
       <div 
       className="collapse 
       navbar-collapse
-      align-items-center
+      align-items-start
       d-flex
-      flex-cloumn
+      flex-column
       flex-md-row
       " 
       id="navbarSupportedContent">
-    <ul className="navbar-nav me-auto mb-2 mb-lg-1">
+    <ul className="navbar-nav me-auto mb-2 mb-md-1">
       <li className="nav-item active">
         <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
       </li>
