@@ -1,12 +1,10 @@
-import { useState } from "react";
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
   navItems: string[]
 }
 
-function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
-    const [selectedIndex, setSelectedIndex] = 
+function NavBar({ brandName, imageSrcPath }: NavBarProps) {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-white shadow">
     <div className="container-fluid">
@@ -46,6 +44,25 @@ function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Link</a>
+      </li>
+
+      <li className="nav-item">
+        <a className="nav-link" href="#">Services</a>
+      </li>
+
+      <li className="nav-item">
+        <a className="nav-link" href="#">For Business</a>
+      </li> <li className="nav-item">
+        <a className="nav-link" href="#">Careers</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">Community</a>
+      </li> <li className="nav-item">
+        <a className="nav-link" href="#">About Us</a>
+      </li> <li className="nav-item">
+        <a className="nav-link" href="#">FAQs</a>
+      </li> <li className="nav-item">
+        <a className="nav-link" href="#">Rescue me!!</a>
       </li>
      
     </ul>
