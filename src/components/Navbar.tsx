@@ -1,6 +1,7 @@
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
+  navItems: string[];
 }
 
 const NavBar = ({ brandName, imageSrcPath }: NavBarProps) => {
