@@ -1,0 +1,41 @@
+.custom-heading {
+    font-size: 5rem; /* Larger than default h1 */
+    line-height: 1.1;
+    font-weight: 800;
+  
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      font-size: 3rem;
+    }
+  
+    @media (max-width: 576px) {
+      font-size: 2rem;
+    }
+  }
+  
+  .animated-text {
+    display: inline-block;
+    color: #007bff; /* Optional: Make the animated text a different color (Bootstrap primary) */
+    min-width: 200px; /* Prevents layout shift when text changes */
+    text-align: left; /* Align text properly within the span */
+    animation: fadeInOut 2s infinite; /* Animation duration matches interval */
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    80% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
