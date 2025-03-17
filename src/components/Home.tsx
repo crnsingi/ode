@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import "./Home.css"; // We'll add the CSS animations here
+import  { useState, useEffect } from "react";
+import "./Home.css"; 
 
 const services = [
   "fuel delivery",

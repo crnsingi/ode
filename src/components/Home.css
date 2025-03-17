@@ -15,7 +15,7 @@
   
   .animated-text {
     display: inline-block;
-    color: #007bff; /* Optional: Make the animated text a different color (Bootstrap primary) */
+    color: #007bff; /*  Make the animated text a different color  */
     min-width: 200px; /* Prevents layout shift when text changes */
     text-align: left; /* Align text properly within the span */
     animation: fadeInOut 2s infinite; /* Animation duration matches interval */
