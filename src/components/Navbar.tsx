@@ -1,10 +1,12 @@
+import { useState } from "react";
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
   navItems: string[]
 }
 
-function NavBar({ brandName, imageSrcPath }: NavBarProps) {
+function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
+    const [selectedIndex, setSelectedIndex] = 
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-white shadow">
     <div className="container-fluid">
