@@ -1,0 +1,17 @@
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.icon-container img {
+  width: 70px;
+  height: auto;
+}
+
+.icon-item p {
+    margin: 20px 0 0 0; 
+    font-size: 20px; 
+    text-align: center;
+
+  }
