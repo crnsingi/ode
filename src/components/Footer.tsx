@@ -1,6 +1,5 @@
 import "./Footer.css"
 import {
-    RiYoutubeLine,
     RiInstagramLine,
     RiFacebookBoxLine,
     RiGithubLine,
@@ -32,28 +31,25 @@ const Footer = () => {
             </a>
           </nav>
           <div className="footer-main__content__items footer-main__content__items--icons">
-            <a className="link link_type-footer" href="/" aria-label="Youtube">
-              <RiYoutubeLine size={24} />
-            </a>
             <a
               className="link link_type_footer"
               href="/"
               aria-label="Instagram"
             >
-              <RiInstagramLine size={24} />
+              <RiInstagramLine size={40} />
             </a>
             <a className="link link_type_footer" href="/" aria-label="Facebook">
-              <RiFacebookBoxLine size={24} />
+              <RiFacebookBoxLine size={40} />
             </a>
             <a className="link link_type_footer" href="/" aria-label="Github">
-              <RiGithubLine size={24} />
+              <RiGithubLine size={40} />
             </a>
             <a
               className="link link_type_footer"
               href="/"
               aria-label="Twitter X"
             >
-              <RiTwitterXLine size={24} />
+              <RiTwitterXLine size={40} />
             </a>
           </div>
         </div>

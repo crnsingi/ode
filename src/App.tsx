@@ -4,12 +4,14 @@ import imagePath from './assets/image.png'
 import Footer from "./components/Footer";
 import "./App.css"
 import Home from "./components/Home";
+import HomeIcons from "./components/HomeIcons";
 
 const App = () => {
   return (
     <div>
       <Navbar brandName="" imageSrcPath={imagePath} />
       <Home />
+      <HomeIcons />
       <Footer />
     </div>
   )
