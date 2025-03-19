@@ -13,8 +13,8 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
         <a className="navbar-brand" href="#">
           <img
             src={imageSrcPath}
-            width="60"
-            height="60"
+            width="40"
+            height="40"
             className="d-inline-block align-center"
             alt=""
           />
@@ -116,7 +116,7 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
 
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#" style={{color: 'blue' , fontWeight: 'bold'}}>
                 Download app
               </a>
             </li>
