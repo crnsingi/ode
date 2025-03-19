@@ -1,3 +1,5 @@
+import rescueme from "../assets/rescueme.png"
+
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
@@ -83,6 +85,7 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
                     Rescue me!!
                   </a>
                 </li>
+                
               </ul>
             </li>
 
@@ -102,9 +105,19 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
                 FAQs
               </a>
             </li>
+
+
+            <li className="nav-item">
+              <a className="nav-link " href="#" style={{ color: 'red' }} >
+                <img src={rescueme} alt="" style={{ width: '30px', height: 'auto', }} />
+                Rescue me!!
+              </a>
+            </li>
+
+
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Rescue me!!
+                Download app
               </a>
             </li>
           </ul>
