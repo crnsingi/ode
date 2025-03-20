@@ -29,6 +29,7 @@ const Footer = () => {
             <a className="link" href="/">
               Contact
             </a>
+            
           </nav>
           <div className="footer-main__content__items footer-main__content__items--icons">
             <a
