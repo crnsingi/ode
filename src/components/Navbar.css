@@ -1,0 +1,15 @@
+.nav-rescue {
+    color: red;
+  }
+  
+  .nav-rescue .rescue-icon {
+    width: 18px;
+    height: auto;
+    margin-right: 8px;
+    vertical-align: middle; 
+  }
+  
+  .nav-download {
+    color: blue;
+    font-weight: bold;
+  }
