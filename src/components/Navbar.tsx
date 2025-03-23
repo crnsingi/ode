@@ -1,4 +1,6 @@
 import rescueme from "../assets/rescueme.png"
+import "./Navbar.css";
+
 
 interface NavBarProps {
   brandName: string;
