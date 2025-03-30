@@ -110,13 +110,12 @@ function NavBar({ brandName, imageSrcPath }: NavBarProps) {
 
 
             <li className="nav-item">
-              <a className="nav-link " href="#" style={{ color: 'red' }} >
+              <a className="nav-link " href="#" style={{ color: 'red' }}>
                 <img src={rescueme} alt="" style={{ width: '18px', height: 'auto', marginRight: '8px' }} />
                 Rescue me!!
               </a>
             </li>
-
-
+            
             <li className="nav-item">
               <a className="nav-link" href="#" style={{color: 'blue' , fontWeight: 'bold'}}>
                 Download app
